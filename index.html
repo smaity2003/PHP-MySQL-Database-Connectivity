@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Connectivity using PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="connection.php" method="POST">
+            <h2>Student Register</h2>
+            <label for="name">Name :</label> <br>
+            <input type="text" placeholder="" name="name" id="name" required><br />
+            <label for="studentCode">Student Code :</label> <br>
+
+            <input type="text" placeholder="BWU/BCA/22/301" id="studentCode" name="studentCode" required><br />
+            <label for="email">Email :</label> <br>
+
+            <input type="email" name="email" placeholder="name@example.com" required id="email"> <br>
+            <label for="phone">Phone :</label> <br>
+
+            <input type="number" id="phone" name="phone" placeholder="Enter Mobile number" required> <br>
+            <label for="address">Address :</label> <br>
+
+            <textarea name="address" id="address" cols="20" rows="4" placeholder="Enter Full address"></textarea> <br>
+            <br>
+
+            <button type="submit">Register Now</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
